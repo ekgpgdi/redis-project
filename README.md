@@ -2,6 +2,23 @@
 
 이 프로젝트는 고성능 서비스를 위해 Redis 이해하고 최적화하기 위해 설계된 사이드 프로젝트입니다.
 
+## 목차
+1. [SortedSet Redis 을 통한 리더보드 기능](#SortedSet-Redis-을-통한-리더보드-기능)
+2. [Redis 의 Pub/Sub 을 이용한 채팅방 구현](#Redis-의-Pub/Sub-을-이용한-채팅방-구현)
+3. [프로젝트를 통한 기술적/실무적 학습 내용](#프로젝트를-통한-기술적/실무적-학습-내용)
+  - [Redis 개요](#redis-개요)
+  - [String](#string)
+  - [Lists](#lists)
+  - [Sets](#sets)
+  - [Hashes](#hashes)
+  - [Sorted Sets](#sorted-sets)
+  - [Bitmaps](#bitmaps)
+  - [HyperLogLog](#hyperloglog)
+  - [캐시](#캐시)
+  - [캐시 전략](#캐시-전략)
+  - [데이터 제거 방식](#데이터-제거-방식)
+  - [Pub/Sub 패턴](#pubsub-패턴)
+
 ## SortedSet Redis 을 통한 리더보드 기능
 
 리더보드 : 랭킹 시스템
