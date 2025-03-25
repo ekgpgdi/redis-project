@@ -2,6 +2,11 @@
 
 이 프로젝트는 고성능 서비스를 위해 Redis 이해하고 최적화하기 위해 설계된 사이드 프로젝트입니다.
 
+## 기술 스택
+- Language: Java 21
+- Framework: Spring Boot 3.4.4
+- Database: Redis
+
 ## 목차
 1. [SortedSet Redis 을 통한 리더보드 기능](#SortedSet-Redis-을-통한-리더보드-기능)
 2. [Redis 의 Pub/Sub 을 이용한 채팅방 구현](#Redis-의-Pub/Sub-을-이용한-채팅방-구현)
